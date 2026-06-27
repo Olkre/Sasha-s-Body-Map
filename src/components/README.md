@@ -7,6 +7,7 @@ Starter folder for the React implementation of the body map project.
 - Wrap pure SVG assets in reusable React components.
 - Add props for sizing, colors, selected regions, and interaction states.
 - Provide a clean path toward publishing a React package later.
+- Keep the React source grouped under `src/components/` instead of the repo root.
 
 ## Current Files
 
