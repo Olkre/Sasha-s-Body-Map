@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-const svgInner = `  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 320 614" overflow="visible">
+const svgInner = `  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 320 614" overflow="hidden">
   <g>
 <path
         fill-rule="evenodd"
@@ -694,7 +694,7 @@ const svgInner = `  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 3
       />
   </g>
   </svg>
-  <svg x="395" y="0" width="365" height="614" viewBox="266 -14 320 614" overflow="visible">
+  <svg x="395" y="0" width="365" height="614" viewBox="266 -14 320 614" overflow="hidden">
   <g>
 <path
         fill-rule="evenodd"
@@ -1389,6 +1389,8 @@ const svgInner = `  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 3
   </g>
   </svg>`;
 
+const svgContent = svgInner;
+
 export type MaleBodyProps = SVGProps<SVGSVGElement>;
 
 export default function MaleBody(props: MaleBodyProps) {
@@ -1400,7 +1402,7 @@ export default function MaleBody(props: MaleBodyProps) {
       role="img"
       aria-label="Male body front and back muscle map"
       {...props}
-      dangerouslySetInnerHTML={{ __html: svgInner }}
+      dangerouslySetInnerHTML={{ __html: svgContent }}
     />
   );
 }

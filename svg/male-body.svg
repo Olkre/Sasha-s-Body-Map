@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 614" fill="none" role="img" aria-labelledby="title">
   <title>Male body front and back muscle map</title>
-  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 320 614" overflow="visible">
+  <svg x="0" y="0" width="365" height="614" viewBox="-51 -14 320 614" overflow="hidden">
   <g>
 <path
         fill-rule="evenodd"
@@ -694,7 +694,7 @@
       />
   </g>
   </svg>
-  <svg x="395" y="0" width="365" height="614" viewBox="266 -14 320 614" overflow="visible">
+  <svg x="395" y="0" width="365" height="614" viewBox="266 -14 320 614" overflow="hidden">
   <g>
 <path
         fill-rule="evenodd"

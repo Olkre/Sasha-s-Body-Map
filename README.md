@@ -7,10 +7,15 @@ Starter workspace for an open source body map project built from pure SVG assets
 ```text
 body-map/
   README.md
-  react/
+  demo/
+  index.html
+  package.json
+  components/
   svg/
     female-body.svg
     male-body.svg
+  tsconfig.json
+  vite.config.ts
 ```
 
 ## Goals
@@ -23,7 +28,19 @@ body-map/
 
 - `svg/male-body.svg`: combined male front and back layout, side by side.
 - `svg/female-body.svg`: combined female front and back layout, side by side.
-- `react/`: React wrappers for the same combined body assets.
+- `components/`: React wrappers for the same combined body assets.
+- `demo/`: standalone React demo app entrypoint and styles.
+
+## Local Demo
+
+Run the demo from inside `body-map/`:
+
+```bash
+npm install
+npm run dev
+```
+
+By default Vite serves the demo locally and renders the hover-tooltips UI using the components from `components/`.
 
 ## Notes
 
