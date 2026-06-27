@@ -10,10 +10,8 @@ Starter folder for the React implementation of the body map project.
 
 ## Current Files
 
-- `MaleFrontBody.tsx`
-- `MaleBackBody.tsx`
-- `FemaleFrontBody.tsx`
-- `FemaleBackBody.tsx`
+- `MaleBody.tsx`
+- `FemaleBody.tsx`
 - `index.ts`
 
 ## Notes
@@ -22,3 +20,4 @@ Starter folder for the React implementation of the body map project.
 - Body paths are extracted from the current app source.
 - All paths use `currentColor` so the body color can be controlled externally.
 - Each path carries `data-muscle` and `data-muscle-id` metadata for interaction logic.
+- `MaleBody` and `FemaleBody` render front and back side by side as the default whole-body views.

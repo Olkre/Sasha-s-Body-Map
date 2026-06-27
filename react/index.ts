@@ -1,4 +1,2 @@
-export { default as MaleFrontBody } from "./MaleFrontBody";
-export { default as MaleBackBody } from "./MaleBackBody";
-export { default as FemaleFrontBody } from "./FemaleFrontBody";
-export { default as FemaleBackBody } from "./FemaleBackBody";
+export { default as MaleBody } from "./MaleBody";
+export { default as FemaleBody } from "./FemaleBody";
