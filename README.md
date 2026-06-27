@@ -35,6 +35,7 @@ body-map/
 - The raw SVG files use a neutral fill color for easy editing and export workflows.
 - The React components use `currentColor`, so you can recolor them with CSS or inline styles.
 - Each React component generates a unique `clipPath` ID at runtime to avoid collisions when multiple bodies render on the same page.
+- Every path includes `data-muscle` and `data-muscle-id` so consumers can attach hover, selection, tooltip, and analytics behavior without relying on CSS classes.
 
 ## Next Ideas
 

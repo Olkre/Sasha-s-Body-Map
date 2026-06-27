@@ -21,3 +21,4 @@ Starter folder for the React implementation of the body map project.
 - Components are standalone and do not import from the app code.
 - Body paths are extracted from the current app source.
 - All paths use `currentColor` so the body color can be controlled externally.
+- Each path carries `data-muscle` and `data-muscle-id` metadata for interaction logic.
