@@ -20,13 +20,9 @@ body-map/
   react/
     components/
     demo/
-  index.html
-  package.json
   svg/
     female-body.svg
     male-body.svg
-  tsconfig.json
-  vite.config.ts
 ```
 
 ## Goals
@@ -47,11 +43,12 @@ body-map/
 Run the demo from inside `body-map/`:
 
 ```bash
+cd react/demo
 npm install
 npm run dev
 ```
 
-By default Vite serves the demo locally and renders the hover-tooltips UI using the components from `react/components/`.
+The runnable Vite app now lives entirely in `react/demo/` and renders the hover-tooltips UI using the components from `react/components/`.
 
 ## Notes
 
