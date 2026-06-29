@@ -16,21 +16,28 @@ Starter workspace for an open source body map project built from pure SVG assets
 
 ### Muscle Selection
 
-<video src="./mp4/muscle-selection-demo.mp4" controls muted playsinline></video>
+![Muscle selection demo](./gif/muscle-selection-demo.gif)
+
+[MP4 version](./mp4/muscle-selection-demo.mp4)
 
 ### Ripple Effect
 
-<video src="./mp4/ripple-demo.mp4" controls muted playsinline></video>
+![Ripple effect demo](./gif/ripple-demo.gif)
+
+[MP4 version](./mp4/ripple-demo.mp4)
 
 ### Transitions
 
-<video src="./mp4/transition-demo.mp4" controls muted playsinline></video>
+![Transition demo](./gif/transition-demo.gif)
+
+[MP4 version](./mp4/transition-demo.mp4)
 
 ## Structure
 
 ```text
 body-map/
   README.md
+  gif/
   mp4/
   react/
     components/
@@ -51,6 +58,7 @@ body-map/
 
 - `svg/male-body.svg`: combined male front and back layout, side by side.
 - `svg/female-body.svg`: combined female front and back layout, side by side.
+- `gif/`: GitHub README-safe animated previews for the demos.
 - `mp4/`: demo recordings exported as `.mp4` for README playback.
 - `react/components/`: React wrappers for the same combined body assets.
 - `react/demo/`: standalone React demo app entrypoint and styles.
