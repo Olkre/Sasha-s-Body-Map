@@ -23,4 +23,4 @@ Starter folder for the React implementation of the body map project.
 - All paths use `currentColor` so the body color can be controlled externally.
 - Each path carries `data-muscle` and `data-muscle-id` metadata for interaction logic.
 - `MaleBody` and `FemaleBody` render front and back side by side as the default whole-body views.
-- `BodyMapDemo` shows the first interaction pattern: hover a region and read the muscle name from `data-muscle`.
+- `BodyMapDemo` now demonstrates app-like interaction states: hover labels, click selection, body transitions, and shockwave/ripple feedback.
