@@ -106,17 +106,19 @@ The source SVGs use neutral fills for easy editing. The React versions use `curr
 
 ### Muscle usage
 
-The exercise flow and muscle-usage visualization are available as a browser-friendly H.264 video:
+The exercise flow and muscle-usage visualization are available inline:
 
-<video controls muted playsinline width="420" src="./mp4/muscle-usage-demo.mp4"></video>
+![Muscle usage demo](./gif/muscle-usage-demo.gif)
 
 [Watch or download the MP4](./mp4/muscle-usage-demo.mp4) · [Original MOV](./mp4/muscle-usage-demo.mov)
 
 ### Muscle usage state machine
 
-The state-machine controls and transitions are also available as a browser-friendly H.264 video:
+The state-machine controls and transitions are also available inline:
 
-<video controls muted playsinline width="420" src="./mp4/muscle-usage-state-machine.mp4"></video>
+![Muscle usage state machine demo](./gif/muscle-usage-state-machine-demo.gif)
+
+![Muscle usage state machine demo](./gif/muscle-usage-state-machine-demo.gif)
 
 [Watch or download the MP4](./mp4/muscle-usage-state-machine.mp4) · [Original MOV](./mp4/muscle-usage-state-machine.mov)
 
