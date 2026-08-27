@@ -112,6 +112,14 @@ The exercise flow and muscle-usage visualization are available as a browser-frie
 
 [Watch or download the MP4](./mp4/muscle-usage-demo.mp4) · [Original MOV](./mp4/muscle-usage-demo.mov)
 
+### Muscle usage state machine
+
+The state-machine controls and transitions are also available as a browser-friendly H.264 video:
+
+<video controls muted playsinline width="420" src="./mp4/muscle-usage-state-machine.mp4"></video>
+
+[Watch or download the MP4](./mp4/muscle-usage-state-machine.mp4) · [Original MOV](./mp4/muscle-usage-state-machine.mov)
+
 ## Notes
 
 - The root Vite config uses a relative base path, so the production build can be served from a subdirectory.
