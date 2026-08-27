@@ -104,6 +104,14 @@ The source SVGs use neutral fills for easy editing. The React versions use `curr
 
 [MP4 version](./mp4/transition-demo.mp4)
 
+### Muscle usage
+
+The exercise flow and muscle-usage visualization are available as a browser-friendly H.264 video:
+
+<video controls muted playsinline width="420" src="./mp4/muscle-usage-demo.mp4"></video>
+
+[Watch or download the MP4](./mp4/muscle-usage-demo.mp4) · [Original MOV](./mp4/muscle-usage-demo.mov)
+
 ## Notes
 
 - The root Vite config uses a relative base path, so the production build can be served from a subdirectory.
