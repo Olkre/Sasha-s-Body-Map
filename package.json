@@ -1,0 +1,26 @@
+{
+  "name": "body-map",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Interactive React body map and reusable anatomical SVG assets.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "test": "node --experimental-strip-types --test src/*.test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lisse/react": "^0.7.2",
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
